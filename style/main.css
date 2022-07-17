@@ -1,5 +1,5 @@
 body{
-    /* background-color: ; */
+   
     margin: 0;
     padding: 0;
     font-family: arial;
@@ -18,7 +18,7 @@ nav ul{
     list-style: none;
     background-color:blue;
     padding: 5px;
-    margin: 0;
+    margin: 15px 0;
     text-align:center;
 }
 nav li{
@@ -41,6 +41,24 @@ nav a{
 nav a:hover{
     background-color: black;
 }
+ .email input{
+    width: 20%;
+    height: 50%;
+    padding: 15px 10px;
+    
+}
+
+.password input{
+    width: 20%;
+    padding: 15px 10px;
+    height: 20%;
+    
+}
+form input{
+    font-size: large;
+    font-weight: bold;
+    
+}
 .login {
     text-align: center;
 }
@@ -48,6 +66,7 @@ nav a:hover{
     font-weight: 900;
 }
 .login h3{
-    font-weight: 100;
+    font-weight: 50;
+    
 
 }
