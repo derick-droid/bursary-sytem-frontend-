@@ -54,6 +54,11 @@ nav a:hover{
     height: 20%;
     
 }
+.name input{
+    width: 20%;
+    padding: 15px 10px;
+    height:20% ;
+}
 form input{
     font-size: large;
     font-weight: bold;
@@ -69,4 +74,10 @@ form input{
     font-weight: 50;
     
 
+}
+
+/* sign up */
+
+.sign{
+    text-align: center;
 }
