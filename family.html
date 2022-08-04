@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/main.css">
-    <title>polling</title>
-</head>
 
+    <title>home page</title>
+</head>
 <body>
     <nav>
         <!-- navigation bar -->
@@ -44,40 +44,53 @@
         <form action="#">
             <div class="user-details">
                 <fieldset>
-                    <legend> <b>POLLING STATION</b> </legend>
-
+                    <legend> <b>FAMILY BACKGROUND ( Tick appropriately)</b> </legend>
+<!-- 
                 <label>
-                     <span class="details">WARD</span>
-                <input type="text"  placeholder="enter location"  required>
+                     <span class="details">FULL NAMES(as it appear in the ID/official documents)</span>
+                <input type="text"  placeholder="enter your full names"  required>
 
-               <span class="details">LOCATION</span>
-               <input type="text"  placeholder="ward"  required>
-               <span class="details">SUB LOCATION</span>
-               <input type="text"  placeholder="sub location"  required>
+                </label> -->
+               
+               <p>
+                Kindly indicate your family status
+               </p>
+               
+               <input type="radio", name="status" value="dead" checked/>Both Parents Dead
+               <input type="radio", name="status" value="one" checked/>One Parent Dead
+               <input type="radio", name="status" value="both" checked/>Both Parents Alive
+               <input type="radio", name="status" value="single" checked/>Single parent            
 
-               <br>
-               <span class="details">PHYSICAL ADDRESS</span>
-               <input type="text"  placeholder="physical address"  required>
-
-               <br>
-               <span class="details">PERMANENT ADDRESS</span>
-               <input type="text"  placeholder="permanent address" required>
-
-               <br>
-               <span class="details">INSTITUTION’S POSTAL ADDRESS</span>
-               <input type="text"  placeholder="institutional postal address"  required>
-
-               <br>
-               <span class="details">INSTITUTION’S TELEPHONE NUMBER</span>
-               <input type="text"  placeholder="institutional telephone number"  required>
+                <br>
+               <span class="details">OTHERS(states)</span>
+               <input type="text"  placeholder="others"  required>
+               <span class="details">Number of siblings ( alive)</span>
+               <input type="text"  placeholder="siblings alive"  required>
 
                <br>
-               <span class="details">AMOUNT APPLIED FOR (Kshs.)</span>
-               <input type="text"  placeholder="amount"  required>
-               <br>
-               <p><b><strong>(Attach support documents including letter of admission, fees structure and recommendations)</strong></b></p>
+               <span class="details">Estimated Family income(annually Kshs.)</span>
+               <input type="text"  placeholder="family income"  required>
 
-               <!-- <p>
+               <br>
+               <span class="details">Estimated Family expenses(annually Kshs.)</span>
+               <input type="text"  placeholder="family expenses" required>
+               <br>
+               <p><b><strong>Attach support documents eg- death certificate / a verification letter from area chief/sub chief</strong></b></p>
+
+
+               <br>
+               <span class="details">CAMPUS/BRANCH(for tertiary institution only)</span>
+               <input type="text"  placeholder="campus/branch"  required>
+
+               <br>
+               <span class="details">FACULTY / DEPARTMENT: (for tertiary institution and University)</span>
+               <input type="text"  placeholder="department"  required>
+
+               <br>
+               <span class="details">COURSE OF STUDY: (for tertiary institution and University)</span>
+               <input type="text"  placeholder="course of study"  required>
+
+               <p>
                 MODE OF STUDY
                </p>
             
@@ -97,23 +110,18 @@
                <input type="text"  placeholder="year of completion" required>
                <br>
                <span class="details">PHONE NUMBER:</span>
-               <input type="text"  placeholder="phone number"required> -->
- 
+               <input type="text"  placeholder="phone number"required>
+                
                <br>
                <button type="submit" value="Submit">SUBMIT</button>
 
+
                <div class="next">
-                <a class="next" href="family.html">NEXT PAGE</a>
+                <a class="next" href="polling.html">NEXT PAGE</a>
                </div>
             </fieldset>
-
         </form>
     </div>
 </div>
-
-    </div>
-
-
 </body>
-
 </html>
