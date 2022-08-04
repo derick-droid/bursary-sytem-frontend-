@@ -3,6 +3,8 @@ body{
     margin: 0;
     padding: 0;
     font-family: arial;
+    background: linear-gradient(135deg,#71b7e6,#9b51b6);
+    padding: 10px;
 }
 h1{
     text-align: center;
@@ -91,4 +93,34 @@ text-align: center;
 
 .next{
     align-items: center;
+}
+.containers
+{
+    max-width: 700px;
+    width: 100%;
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 5px;
+   
+}
+.containers .title{
+    font-size: 25px;
+    font-weight: 300;
+    position: relative;
+}
+.containers .title::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    background: linear-gradient(135deg,#71b7e6,#9b51b6);
+    align-items: center;
+}
+
+
+.containers form .user-detail{
+    display: flex;
+    flex-wrap: wrap;
 }
