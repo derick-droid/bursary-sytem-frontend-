@@ -119,8 +119,3 @@ text-align: center;
     align-items: center;
 }
 
-
-.containers form .user-detail{
-    display: flex;
-    flex-wrap: wrap;
-}
