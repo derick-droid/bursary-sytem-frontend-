@@ -94,7 +94,7 @@ text-align: center;
 
 
 .next{
-    align-items: center;
+    align-content: center;
 }
 .containers
 {
@@ -115,6 +115,7 @@ text-align: center;
     background: #fff;
     /* display: inline-flex; */
 }
+
 /* .containers .title::before{
     content: "";
     position: absolute;
